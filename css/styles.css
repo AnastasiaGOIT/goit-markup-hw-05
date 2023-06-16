@@ -710,6 +710,9 @@ img {
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-field-comment {
+  margin-bottom: 16px;
+}
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
