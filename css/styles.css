@@ -706,9 +706,11 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-
+.modal-field-name {
+  margin-bottom: 8px;
+}
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-label {
   font-size: 12px;
@@ -811,16 +813,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
-/*.check-text span {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  width: 16px;
-  margin-right: 8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}*/
+
 .check-icon {
 }
 .modal-btn-send {
