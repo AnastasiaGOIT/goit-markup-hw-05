@@ -582,7 +582,7 @@ img {
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background: #2e2f42;
+  background-color: transparent;
   margin-right: 24px;
   color: #ffffff;
 }
@@ -598,12 +598,16 @@ img {
   position: relative;
 }
 .footer-btn-subscribe {
-  width: 165px;
+  min-width: 165px;
+  font-family: "Roboto", sans-serif;
   height: 40px;
   padding: 8px 64px 8px 24px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 4px;
   border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   display: flex;
   justify-content: center;
@@ -611,12 +615,14 @@ img {
   gap: 24px;
   cursor: pointer;
   margin-bottom: 0;
+  color: #ffffff;
 }
 .footer-btn-subscribe:is(:hover, :focus) {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-subscribe-icon {
+  margin-left: 16px;
   fill: #ffffff;
   background-color: transparent;
   position: absolute;
@@ -703,7 +709,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-label {
   font-size: 12px;
@@ -803,8 +809,9 @@ img {
 .check-text span {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  width: 16px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
